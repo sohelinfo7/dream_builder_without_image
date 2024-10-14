@@ -1,0 +1,150 @@
+/*========================================
+            Responsive CSS
+========================================*/
+/* -----For Mobiles Small (Portrait) View || Updto 320 PX to 400 PX---------- */
+@media screen and (max-width: 400px) {}
+
+/* -------- Mobiles (Portrait) View || Upto 401 PX to 480 PX----------*/
+@media screen and (Max-width: 480px) {
+    .hero-contact-info-area {
+        display: none;
+    }
+}
+
+
+/* -----For Low Resolution Tablets, Mobiles (Landscape) View || Upto 481 PX to 767 PX-----*/
+@media screen and (max-width: 767px) {
+    .hero-contact-separator {
+        display: none;
+    }
+}
+
+/* -------- For Tablets, Ipads (landscape) View || Upto 768 PX to 991 PX ----------*/
+@media screen and (max-width: 991px) {
+
+    .nav-search-link {
+        display: none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 #e2e3e3;
+    }
+
+    .dropdown-flexbox {
+        justify-content: flex-start;
+    }
+
+    .menu-content {
+        display: none;
+    }
+
+    .dropdown-menu {
+        background: #F5F5F5;
+        border-radius: 0;
+        border: none;
+    }
+
+    /*-----Job Filter---------*/
+    .job-filter-area .d-flex {
+        flex-flow: column;
+    }
+
+    /*-----Home Page 4---------*/
+    .hero2-section .carousel-caption .hero-content h1 {
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    .hero2-section .carousel-caption p {
+        display: none;
+    }
+
+    .hero2-section .carousel-item .hero-btn-area {
+        display: none;
+
+    }
+}
+
+/* -------- For Laptops, Desktops Small View || Upto 992 PX to 1200 PX ----------*/
+@media screen and (max-width: 1200px) {
+
+    /*Need to work*/
+    .navbar-brand img {
+        max-width: 190px;
+    }
+
+    .ms-auto {
+        margin-left: 20px !important;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .hero-contact-separator {
+        margin: 0;
+    }
+
+    .counter-icon span {
+        font-size: 37px;
+    }
+
+    .counter-icon img {
+        height: 38px;
+    }
+
+    .news-item-content h3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .news-btn-area {
+        margin-top: 10px;
+    }
+
+    .news-item-content a {
+        padding: 5px 15px;
+    }
+
+    .contact-item .contact-text a {
+        font-size: 14px;
+    }
+
+    .contact-icon {
+        width: 65px;
+        height: 65px;
+    }
+
+    /*----------News Room---------*/
+    .news-room-text h2 {
+        font-size: 24px;
+    }
+
+    /*-----Home Page 4---------*/
+
+    .hero2-section .carousel-caption p {
+        display: none;
+    }
+
+}
+
+/* ------- For Laptops, Desktops Medium View || Upto 1201 PX to 1300 PX ---------*/
+
+@media screen and (max-width: 1300px) {
+    /*Done*/
+
+}
+
+/* -------- For Laptops, Desktops Large View || Upto 1301 PX to 1400 PX ----------*/
+
+@media screen and (max-width: 1400px) {
+
+    /*Done*/
+}
+
+@media screen and (min-width: 1401px) {
+
+    /*Done*/
+}
